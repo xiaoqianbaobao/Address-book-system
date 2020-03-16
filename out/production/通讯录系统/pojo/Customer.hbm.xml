@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 客户信息配置 -->
+<hibernate-mapping>
+	<class name="pojo.Customer" table="tb_customer_info">
+		<!-- id值 -->
+		<id name="id" column="id" type="int">
+			<generator class="native" />
+		</id>
+		<!-- 姓名 -->
+		<property name="name" column="name" type="string" />
+		<!-- 账性别 -->
+		<property name="sex" column="sex" type="string" />
+		<!-- 出生日期 -->
+		<property name="birth" column="birth" type="string" />
+		<!-- 工作单位 -->
+		<property name="work_unit" column="work_unit" type="string" />
+		<!-- 工作地址 -->
+		<property name="work_addr" column="work_addr" type="string" />
+		<!-- 家庭住址 -->
+		<property name="home_addr" column="home_addr" type="string" />
+		<!-- 职位 -->
+		<property name="role" column="role" type="string" />
+		<!-- 是否有效 -->
+		<property name="available" column="available" type="string" />
+		<!-- 创建时间 -->
+		<property name="createTime" column="create_time" type="string" />
+		<!-- 最后修改时间 -->
+		<property name="lastUpdateTime" column="last_update_time"
+			type="string" />
+		<!-- 修改操作人 -->
+		<property name="operator" column="operator" type="string" />
+		<!-- 一对多关系映射 ，维护关联关系，不启用延迟加载 -->
+		<!-- 通讯信息集合 -->
+		<set name="communicationList" inverse="true" lazy="false">
+			<key column="id" />
+			<!-- 通讯信息类 -->
+			<one-to-many class="pojo.Communication" />
+		</set>
+	</class>
+</hibernate-mapping>

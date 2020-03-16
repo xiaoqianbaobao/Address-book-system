@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d039653b-c441-402d-8a7d-611ff18c0ec4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZA4O7xYrBdOzzJeEbSzgQ3LMC3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jfreechart-1.0.19.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\16105\IdeaProjects\通讯录系统\lib" />
+      <recent name="C:\Users\16105\IdeaProjects\通讯录系统\src\frame" />
+      <recent name="C:\Users\16105\IdeaProjects\通讯录系统" />
+      <recent name="C:\Users\16105\IdeaProjects\通讯录系统\src\main" />
+      <recent name="C:\Users\16105\IdeaProjects\通讯录系统\src\pojo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CallSystem" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.Start" />
+      <module name="通讯录系统" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d039653b-c441-402d-8a7d-611ff18c0ec4" name="Default Changelist" comment="" />
+      <created>1584268529307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584268529307</updated>
+      <workItem from="1584268534811" duration="13650000" />
+      <workItem from="1584326998335" duration="18050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="355" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584367201563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="355" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584367201563" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1584284167128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584284167128" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584367150194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584367150194" />
+    <state x="790" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1584277143926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277143926" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584367881012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584367881012" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584372136346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584372136346" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584372136346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584372136346" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584372136345">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584372136345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584372136346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584372136346" />
+    <state x="268" y="111" key="SettingsEditor" timestamp="1584367884402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="111" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584367884402" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584364942707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584364942707" />
+  </component>
+</project>

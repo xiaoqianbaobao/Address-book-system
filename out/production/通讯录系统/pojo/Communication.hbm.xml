@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 通讯信息配置 -->
+<hibernate-mapping>
+	<class name="pojo.Communication" table="tb_communication_info">
+		<!-- id -->
+		<id name="id" column="id" type="int">
+			<generator class="native" />
+		</id>
+		<!-- 办公电话 -->
+		<property name="office_phone" column="office_phone" type="string" />
+		<!-- 移动电话 -->
+		<property name="mobile_phone" column="mobile_phone" type="string" />
+		<!-- 邮箱地址 -->
+		<property name="email" column="email" type="string" />
+		<!-- QQ号 -->
+		<property name="qq" column="qq" type="string" />
+		<!-- 是否有效 -->
+		<property name="available" column="available" type="string" />
+		<!-- 创建日期 -->
+		<property name="createTime" column="create_time" type="string" />
+		<!-- 最后修改日期 -->
+		<property name="lastUpdateTime" column="last_update_time"
+			type="string" />
+		<!-- 修改操作人 -->
+		<property name="operator" column="operator" type="string" />
+		<!-- 多一对关系映射 -->
+		<!-- 所属客户 -->
+		<many-to-one name="cust" class="pojo.Customer">
+			<!-- 映射的字段 -->
+			<column name="customer_id" />
+		</many-to-one>
+	</class>
+</hibernate-mapping>

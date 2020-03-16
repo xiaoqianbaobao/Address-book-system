@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 用户信息配置 -->
+<hibernate-mapping>
+	<class name="pojo.User" table="tb_users">
+		<!-- id值 -->
+		<id name="id" column="id" type="int">
+			<generator class="native" />
+		</id>
+		<!-- 账号 -->
+		<property name="account" column="account_name" type="string" />
+		<!-- 密码 -->
+		<property name="password" column="password" type="string" />
+		<!-- 权限 -->
+		<property name="status" column="status" type="string" />
+		<!-- 是否有效 -->
+		<property name="available" column="available" type="string" />
+		<!-- 创建时间 -->
+		<property name="createTime" column="create_time" type="string" />
+		<!-- 最后修改时间 -->
+		<property name="lastUpdateTime" column="last_update_time"
+			type="string" />
+		<!-- 修改操作人 -->
+		<property name="operator" column="operator" type="string" />
+	</class>
+</hibernate-mapping>
